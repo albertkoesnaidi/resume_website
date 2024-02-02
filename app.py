@@ -3,7 +3,7 @@ from dash import html, Dash, dcc
 import dash_bootstrap_components as dbc
 
 app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.SANDSTONE, dbc.icons.BOOTSTRAP])
-
+server = app.server
 
 header = dbc.NavbarSimple(
     children=[
@@ -34,4 +34,4 @@ app.layout = dbc.Container([header, dash.page_container], fluid=False)
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
