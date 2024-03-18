@@ -135,7 +135,7 @@ def update_markdown(ri_val):
     if ri_val=='Deutsch':
         return'## Eine wachstumsorientierte Denkweise ist eine der beste Eigenschaften, die ein Mensch haben kann'
     else:
-        return '## A Growth Mindeset Is One of The Best Thing A Human Can Have'
+        return '## A Growth Mindset Is One of The Best Thing A Human Can Have'
     
    
 
